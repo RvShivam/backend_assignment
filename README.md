@@ -9,12 +9,10 @@
 
 ## AI tools
 
-Used **Antigravity (Claude Sonnet)** as an AI pair-programming assistant throughout this assignment.
+AI tools (Claude Sonnet and ChatGPT) were used as development assistants for:
+- brainstorming implementation approaches,
+- reviewing edge cases,
+- refining validation logic,
+- and drafting parts of the README/testing documentation.
 
-What it helped with:
-- Scaffolding the initial file structure and boilerplate
-- Catching edge cases (e.g. whitespace-only `user_id`, `url.Parse` vs `url.ParseRequestURI`)
-- Writing curl examples in TESTING.md
-- Drafting README sections
-
-All code was reviewed, understood, and iterated on by me. Design decisions (rolling window vs fixed, 409 for duplicate SKU, `RWMutex` for the product store, `copyProduct` for race safety, etc.) were made and reasoned through during the session.
+All code and design decisions were reviewed, understood, and iterated on manually.
